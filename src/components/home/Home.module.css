@@ -1,0 +1,52 @@
+.Home{
+    min-height: 100%;
+    padding: var(--navbar-size) 10% 1% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f1ebbb;
+    background-color: var(--light-purple);
+}
+
+.title{
+    margin: auto;
+}
+
+.viewProjects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.viewProjects span{
+    color: #ffffff;
+}
+
+.viewProjects a{
+    color: inherit;
+}
+
+.viewProjects a:hover{
+    color: inherit;
+    cursor: initial;
+}
+
+.viewProjects i{
+    animation: jump 700ms  alternate infinite ease-in-out;
+}
+
+.viewProjects i:hover{
+    color: inherit;
+    opacity: 0.5;
+    cursor: pointer;
+    animation-play-state: paused;
+}
+
+@keyframes jump {
+    form { transform: translateY(0);}
+    to { transform: translateY(5px);}
+}

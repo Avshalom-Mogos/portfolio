@@ -1,0 +1,27 @@
+.NavBar{
+  transition: 200ms linear;
+}
+
+.NavBar a{
+    color: var(--font-color-yellow) !important;
+}
+
+.scrolled{
+    background-color: var(--dark-purple);
+}
+
+.notScrolled{
+    background-color: var(--light-purple);
+}
+
+.icon span{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(241, 235, 187)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.NavBar button{
+    border: none !important;
+}
+
+.NavBar button:focus {
+    outline: 1px solid var(--font-color-yellow) !important;
+}
