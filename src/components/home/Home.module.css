@@ -1,5 +1,5 @@
 .Home{
-    min-height: 100%;
+    height: 100%;
     padding: var(--navbar-size) 10% 1% 10%;
     display: flex;
     flex-direction: column;
@@ -10,6 +10,7 @@
 
 .title{
     margin: auto;
+    font-weight: 100;
 }
 
 .viewProjects{

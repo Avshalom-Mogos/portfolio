@@ -1,10 +1,10 @@
 import React from 'react';
 import NavBar from '../nav-bar/NavBar';
 import Home from '../home/Home';
-import About from '../about/About';
 import Projects from '../projects/Projects';
-import Skills from '../skills/Skills';
-import Footer from '../footer/Footer';
+// import About from '../about/About';
+// import Skills from '../skills/Skills';
+// import Footer from '../footer/Footer';
 import classes from './App.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -15,9 +15,9 @@ const App = () => {
       <NavBar />
       <Home />
       <Projects />
-      <About />
+      {/* <About />
       <Skills />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };

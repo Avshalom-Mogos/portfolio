@@ -23,7 +23,7 @@ const NavBar = () => {
 
     return (
         <Navbar expand="md" fixed="top" collapseOnSelect className={`${classes.NavBar} ${setClasses}`} onToggle={handleToggle}>
-            <Navbar.Brand href="#home">Avshalom Mogos</Navbar.Brand>
+            <Navbar.Brand href="#">Avshalom Mogos</Navbar.Brand>
             <Navbar.Toggle className={classes.icon} aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="justify-content-end">
                 <Nav>
