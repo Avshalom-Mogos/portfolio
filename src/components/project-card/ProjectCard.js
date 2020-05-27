@@ -2,10 +2,10 @@ import React from 'react';
 import classes from './ProjectCard.module.css';
 
 
-const ProjectCard = ({ name, description, technologies, URLs, image }) => {
+const ProjectCard = ({ name, description, technologies, URLs, gif }) => {
     return (
         <div className={classes.ProjectCard}>
-            <img className={classes.image} src={image} alt={name} />
+            <img className={classes.image} src={gif} alt={name} />
 
             <div className={classes.cardDetails}>
                 <span className={classes.name}>{name}</span>

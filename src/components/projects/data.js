@@ -7,7 +7,7 @@ export const data = [
             site: 'https://www.jas.cloudns.cl/',
             code: 'https://github.com/tamrat-bay/JAS-job-apply-status-'
         },
-        image: 'https://media.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif'
+        gif: require('../../assests/GIFs/jas.gif')
     },
     {
         name: 'The Book Shelf',
@@ -17,7 +17,7 @@ export const data = [
             site: 'https://the-book-shelf-project.herokuapp.com',
             code: 'https://github.com/Avshalom-Mogos/the-book-shelf-MERN'
         },
-        image: 'https://media.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif'
+        gif: require('../../assests/GIFs/theBookShelf.gif')
     },
     {
         name: 'iPod Classic',
@@ -27,7 +27,7 @@ export const data = [
             site: 'https://avshalom-mogos.github.io/iPod-classic-react/',
             code: 'https://github.com/Avshalom-Mogos/iPod-classic-react'
         },
-        image: 'https://media.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif'
+        gif: require('../../assests/GIFs/iPodClassic.gif')
     },
     {
         name: 'Flappy Bird',
@@ -37,7 +37,7 @@ export const data = [
             site: 'https://avshalom-mogos.github.io/flappyBird-js',
             code: 'https://github.com/Avshalom-Mogos/flappyBird-js'
         },
-        image: 'https://media.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif'
+        gif: require('../../assests/GIFs/flappyBird.gif')
     },
     {
         name: 'Snake',
@@ -47,16 +47,16 @@ export const data = [
             site: 'https://avshalom-mogos.github.io/snake-game-js/',
             code: 'https://github.com/Avshalom-Mogos/snake-game-js'
         },
-        image: 'https://media.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif'
+        gif: require('../../assests/GIFs/snake.gif')
     },
     {
         name: 'Tic Tac Toe',
-        description: 'simple tic tac toe game using HTML5 Alert and prompt.',
+        description: 'Simple tic tac toe game using HTML5 Alert and prompt.',
         technologies: ['HTML5', 'JavaScript'],
         URLs: {
             site: 'https://avshalom-mogos.github.io/Tic-Tac-Toe-js/',
             code: 'https://github.com/Avshalom-Mogos/Tic-Tac-Toe-js'
         },
-        image: 'https://media.giphy.com/media/3o7527pa7qs9kCG78A/giphy.gif'
+        gif: require('../../assests/GIFs/ticTacToe.gif')
     }
 ];

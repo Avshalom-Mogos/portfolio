@@ -16,7 +16,7 @@ const Projects = () => {
                 <Row noGutters>
                     {data.map((project, index) => {
                         return (
-                            <Col key={index} xs={12} sm={12} md={6} lg={6}>
+                            <Col key={index} xs={12} sm={12} md={6} lg={4}>
                                 <ProjectCard key={index} {...project} />
                             </Col>
                         );
