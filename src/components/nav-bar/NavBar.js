@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import classes from './NavBar.module.css';
+import myIcon from '../../assests/icons/icon.png'
 
 
 const NavBar = () => {
@@ -23,7 +24,9 @@ const NavBar = () => {
 
     return (
         <Navbar expand="md" fixed="top" collapseOnSelect className={`${classes.NavBar} ${setClasses}`} onToggle={handleToggle}>
-            <Navbar.Brand href="#">Avshalom Mogos</Navbar.Brand>
+            <Navbar.Brand href="#">
+                <img className={classes.myIcon} src={myIcon} alt='myIcon'></img>
+            </Navbar.Brand>
             <Navbar.Toggle className={classes.icon} aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="justify-content-end">
                 <Nav>

@@ -5,7 +5,10 @@ import classes from './Home.module.css';
 const Home = () => {
     return (
         <section className={classes.Home}>
-            <h1 className={classes.title}>Full Stack Web Developer</h1>
+            <div className={classes.title}>
+                <h1 className={classes.title}>Avshalom Mogos</h1>
+                <h1 className={classes.title}>Full Stack Web Developer</h1>
+            </div>
             <div className={classes.viewProjects}>
                 <span>View Projects</span>
                 <a href="#projects">

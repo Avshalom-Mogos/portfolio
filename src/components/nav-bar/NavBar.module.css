@@ -2,6 +2,11 @@
   transition: 200ms linear;
 }
 
+.myIcon{
+    width: 100px;
+    height: 24px;
+}
+
 .NavBar a{
     color: var(--font-color-yellow) !important;
 }
