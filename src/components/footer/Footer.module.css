@@ -29,7 +29,7 @@
 
 .links i{
     font-size: 18px;
-    color: white;
+    color: #ffffff;
 }
 
 .links i{
@@ -45,6 +45,7 @@
 
 .copyright{
     padding: 0.5rem;
+    opacity: 0.5;
 }
 
 @keyframes grow {

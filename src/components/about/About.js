@@ -9,7 +9,7 @@ import database from '../../assests/icons/database.svg';
 
 const About = () => {
     return (
-        <section className={classes.About}>
+        <section className={classes.About} id='about'>
 
             <h1>Avshalom</h1>
             <p className={classes.description}>

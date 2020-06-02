@@ -9,13 +9,15 @@ const NavBar = () => {
 
     const [isScrolled, setIsScrolled] = useState(false);
 
+    const navbarSize = 56;
+
     const handleToggle = (e) => {
         if (e) return setIsScrolled(true);
         setIsScrolled(false);
     };
 
     const changeNavBarColor = () => {
-        if (document.body.scrollTop > 56 || document.documentElement.scrollTop > 56) return setIsScrolled(true);
+        if (document.body.scrollTop > navbarSize || document.documentElement.scrollTop > navbarSize) return setIsScrolled(true);
         setIsScrolled(false);
     };
     window.onscroll = changeNavBarColor;
@@ -31,8 +33,8 @@ const NavBar = () => {
             <Navbar.Collapse className="justify-content-end">
                 <Nav>
                     <Nav.Link href="#projects" data-toggle="collapse">Projects</Nav.Link>
-                    <Nav.Link href="#resume">Resume</Nav.Link>
-                    <Nav.Link href="#contact">Contact</Nav.Link>
+                    <Nav.Link href="#about">About</Nav.Link>
+                    <Nav.Link href="https://drive.google.com/file/d/1WK9L7rtbyIOTtg02cMc9O3SFVE1iF61m/view?usp=sharing"  target="_blank" rel="noopener noreferrer">Resume</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
