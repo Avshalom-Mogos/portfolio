@@ -1,3 +1,53 @@
 .Footer{
-    border: 1px solid red;
+    color: var(--font-color-yellow);
+    background-color: var(--dark-purple);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.mainFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.links{
+    padding: 1rem 30% 1rem 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linkDetail{
+    padding: 0.5rem;
+    color: yellow;
+    animation: grow 300ms ease-in-out;
+}
+
+.links i{
+    font-size: 18px;
+    color: white;
+}
+
+.links i{
+    transition: transform 1s ease-in-out;
+}
+
+.links i:hover, 
+.links a:hover{
+    cursor: pointer;
+    color: var(--font-color-yellow);
+    transform :rotate(360deg) scale(1.2);
+}
+
+.copyright{
+    padding: 0.5rem;
+}
+
+@keyframes grow {
+    from {transform: scale(1,0);}
+    to {transform: scale(1,1);}
 }
