@@ -1,16 +1,23 @@
 .Projects{
     min-height: 100%;
-    padding: var(--navbar-size) 0 1% 0;
+    transform: skewY(-5deg);
+    margin-top: -6rem;
+    padding: var(--navbar-size) 0 calc(102px + var(--navbar-size)) 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: var(--light-purple);
     background-color: #ffffff;
+    outline: 1px solid transparent; 
 }
 
 .projectsTitle{
-    padding: 1.5rem;
+    padding: 2rem;
     width: 100%;
+    /* remove skew on content */
+    transform: skewY(5deg);
+    backface-visibility: hidden;
+    /* remove skew on content */
 }
 
 .projectsTitle h2{
@@ -20,4 +27,14 @@
 
 .projectsContainer{
     width: 100%;
+    /* remove skew on content */
+    transform: skewY(5deg);
+    backface-visibility: hidden;
+    /* remove skew on content */
+}
+
+@media only screen and (max-width: 37.5em){
+    .Projects {
+        margin-top: -2rem;
+    }
 }

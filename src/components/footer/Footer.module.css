@@ -14,7 +14,7 @@
 }
 
 .links{
-    padding: 1rem 30% 1rem 30%;
+    padding: 1rem 30%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -28,7 +28,7 @@
 }
 
 .links i{
-    font-size: 18px;
+    font-size: 1.3rem;
     color: #ffffff;
 }
 

@@ -1,13 +1,31 @@
 import React from 'react';
+import Typed from 'react-typed';
+import 'react-typed/dist/animatedCursor.css';
 import classes from './Home.module.css';
 
 
 const Home = () => {
+
+    const titles = [
+        'Web Development',
+        'MERN Stack',
+        'Front End',
+        'Back End',
+        'Full Stack'
+    ];
+
     return (
         <section className={classes.Home}>
-            <div className={classes.title}>
+            <div className={classes.titleContainer}>
                 <h1 className={classes.title}>Avshalom Mogos</h1>
-                <h1 className={classes.title}>Full Stack Web Developer</h1>
+                <Typed
+                    className={classes.description}
+                    strings={titles}
+                    typeSpeed={60}
+                    backSpeed={60}
+                    startDelay={200}
+                    loop
+                />
             </div>
             <div className={classes.viewProjects}>
                 <span>View Projects</span>

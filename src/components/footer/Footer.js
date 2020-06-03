@@ -7,7 +7,7 @@ const Footer = () => {
     const [selected, setSelected] = useState('');
 
     const info = {
-        phone: '0543402853',
+        phone: '054-340-2853',
         email: 'avshalomogos@gmail.com'
     };
 
@@ -34,7 +34,6 @@ const Footer = () => {
                     {info[selected]}
                 </div> : ''}
             </div >
-
 
             <div className={classes.copyright}>
                 Copyright © 2020 Avshalom Mogos. All rights reserved.
