@@ -11,14 +11,28 @@ const About = () => {
     return (
         <section className={classes.About} id='about'>
 
-            <h1>Avshalom</h1>
-            <p className={classes.description}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea mollitia ullam fugiat
-                exercitationem obcaecati
-                voluptate?
-            </p>
+            <h1>About <span className={classes.me}>Me</span></h1>
+            <div className={classes.description}>
+                <p>
+                    {`I'm a dedicated self-motivated Full Stack Web Developer, with a lot of passion for elegant code and new technologies.
+                    Started coding almost 1 year ago, from creating simple websites to advanced web applications.
+                    I specilalizes in JavaScript Technologies across the whole stack (Node.js, React).`}
+                </p>
+
+                <p>
+                    {`I've always loved learning new things and thinking critically.
+                    web development enables me to think analytically and to solve problems while learning new things every day.
+                    so It's a win-win :)`}
+                </p>
+
+                <p>
+                    {`I'm hardworking and passionate about my work and I'm sure that I can be an asset to your company.`}
+                </p>
+
+            </div>
 
             <div className={classes.skills}>
+                <h1>My <span className={classes.skillSet}>SkillSet</span></h1>
                 <Row noGutters>
                     <Col xs={12} sm={12} md={4} lg={4}>
                         <div className={classes.skill}>
