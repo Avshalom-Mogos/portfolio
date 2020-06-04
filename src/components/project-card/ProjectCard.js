@@ -9,19 +9,21 @@ const ProjectCard = ({ name, description, technologies, URLs, gif }) => {
 
             <div className={classes.cardDetails}>
                 <span className={classes.name}>{name}</span>
+
                 <div className={classes.technologiesContainer}>
                     {technologies.map((technology, index) => <span key={index} className={classes.technology}>{technology}</span>)}
                 </div>
+                
                 <span className={classes.description}>{description}</span>
                 
                 <div className={classes.linksContainer}>
-                    <a href={URLs.site} target="_blank" rel="noopener noreferrer">
+                    <a href={URLs.site} target='_blank' rel='noopener noreferrer'>
                         <span>Site</span>
-                        <i className="fas fa-globe-americas"></i>
+                        <i className='fas fa-globe-americas'></i>
                     </a>
-                    <a href={URLs.code} target="_blank" rel="noopener noreferrer">
+                    <a href={URLs.code} target='_blank' rel='noopener noreferrer'>
                         <span>Code</span>
-                        <i className="fas fa-code"></i>
+                        <i className='fas fa-code'></i>
                     </a>
                 </div>
             </div>

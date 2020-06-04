@@ -30,15 +30,17 @@ const Footer = () => {
                     </a>
                 </div>
 
-                {selected === 'phone' || selected === 'email' ? <div className={classes.linkDetail}>
-                    {info[selected]}
-                </div> : ''}
+                {selected === 'phone' || selected === 'email' ?
+                    <div className={classes.linkDetail}>
+                        {info[selected]}
+                    </div> :
+                    ''}
             </div >
 
             <div className={classes.copyright} id='footer'>
                 Copyright © 2020 Avshalom Mogos. All rights reserved.
             </div>
-        </footer >
+        </footer>
     );
 };
 export default Footer;

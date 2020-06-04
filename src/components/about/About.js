@@ -32,7 +32,7 @@ const About = () => {
             </div>
 
             <div className={classes.skills}>
-                <h1>My <span className={classes.skillSet}>SkillSet</span></h1>
+                <h1>My <span className={classes.skillSet}>Skillset</span></h1>
                 <Row noGutters>
                     <Col xs={12} sm={12} md={4} lg={4}>
                         <div className={classes.skill}>
@@ -69,7 +69,6 @@ const About = () => {
                         </div>
                     </Col>
                 </Row>
-
             </div >
         </section >
     );

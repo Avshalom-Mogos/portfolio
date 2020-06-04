@@ -30,9 +30,6 @@
 .links i{
     font-size: 1.3rem;
     color: #ffffff;
-}
-
-.links i{
     transition: transform 1s ease-in-out;
 }
 

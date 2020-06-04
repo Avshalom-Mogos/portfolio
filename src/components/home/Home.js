@@ -1,13 +1,12 @@
 import React from 'react';
 import Typed from 'react-typed';
-import 'react-typed/dist/animatedCursor.css';
 import classes from './Home.module.css';
 
 
 const Home = () => {
 
     const titles = [
-        'Web Development',
+        'Web Developer',
         'MERN Stack',
         'Front End',
         'Back End',
@@ -21,16 +20,17 @@ const Home = () => {
                 <Typed
                     className={classes.description}
                     strings={titles}
-                    typeSpeed={60}
+                    typeSpeed={90}
                     backSpeed={60}
                     startDelay={200}
                     loop
                 />
             </div>
+            
             <div className={classes.viewProjects}>
                 <span>View Projects</span>
-                <a href="#projects">
-                    <i className="fas fa-arrow-alt-circle-down"></i>
+                <a href='#projects'>
+                    <i className='fas fa-arrow-alt-circle-down'></i>
                 </a>
             </div>
         </section>

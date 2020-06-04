@@ -2,7 +2,7 @@
     min-height: 100%;
     transform: skewY(-5deg);
     margin-top: -6rem;
-    padding: var(--navbar-size) 0 calc(102px + var(--navbar-size)) 0;
+     padding: var(--navbar-size) 0 calc(102px + var(--navbar-size)) 0; /* 102px is the projectsTitle height*/
     display: flex;
     flex-direction: column;
     align-items: center;
