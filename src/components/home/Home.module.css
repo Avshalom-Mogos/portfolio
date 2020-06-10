@@ -24,7 +24,10 @@
     font-weight: 100;
     font-size: 2.3rem;
     font-style: italic;
-    opacity: 0.8;
+    color: var(--font-color-yellow);
+    /* remove animation glitch */
+    backface-visibility: hidden;
+    /* remove animation glitch */
 }
 
 .viewProjects{
@@ -56,7 +59,7 @@
 }
 
 .viewProjects i{
-    animation: jump 600ms  alternate infinite ease-in-out;
+    animation: jump 500ms  alternate infinite ease-in-out;
 }
 
 .viewProjects i:hover{

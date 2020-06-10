@@ -3,6 +3,7 @@
     display: flex;
     color: #ffffff;
     background-color: var(--light-purple);
+    /* min-height: 340px; */
     height: 100%;
 }
 
@@ -11,34 +12,35 @@
 }
 
 .cardDetails{
-    padding: 2% 3.5%;
     width: 50%;
+    padding: 2% 3.5%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .name{
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+   padding: 0.8rem;
 }
 
 .technologiesContainer{
-   margin-bottom: 0.5rem;
+  padding: 0.8rem;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
 }
 
 .technology{
-    display: inline-block;
-    background: var(--font-color-red);
-    background: #343a40;
     color: #ffffff;
+    background-color: #343a40;
     padding: 0.2rem 0.4rem;
-    margin: 0.1rem;
+    margin: 0.2rem;
     font-size: 0.7rem;
 }
 
 .description{
-    margin-bottom: 0.5rem;
+   padding: 0.8rem;
 }
 
 .linksContainer{
@@ -46,6 +48,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding: 0.8rem;
 }
 
 .linksContainer a{
@@ -55,7 +58,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 60%;
+    width: 80%;
     max-width: 145px;
     color: #ffffff;
     transition:all 400ms ease-out;

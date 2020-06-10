@@ -1,7 +1,7 @@
 export const data = [
     {
-        name: 'JAS',
-        description: 'Job Apply Status. Allow job seekers to properly organize and manage their applies.',
+        name: 'Job Apply Status',
+        description: 'Allow job seekers to properly organize and manage their job applies.',
         technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'CSS3', 'JavaScript', 'Bootstarp'],
         URLs: {
             site: 'https://www.jas.cloudns.cl/',
@@ -11,7 +11,7 @@ export const data = [
     },
     {
         name: 'The Book Shelf',
-        description: 'Online book store.',
+        description: 'Online book store, with a shpping cart and purchased history.',
         technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'CSS3', 'JavaScript', 'Bootstarp'],
         URLs: {
             site: 'https://the-book-shelf-project.herokuapp.com',
@@ -21,7 +21,7 @@ export const data = [
     },
     {
         name: 'iPod Classic',
-        description: 'Fully functional music player. modeled after the iPod classic.',
+        description: 'Fully functional music player. Modeled after the iPod classic.',
         technologies: ['React', 'JavaScript', 'CSS3'],
         URLs: {
             site: 'https://avshalom-mogos.github.io/iPod-classic-react/',
@@ -31,7 +31,7 @@ export const data = [
     },
     {
         name: 'Flappy Bird',
-        description: 'Flappy Bird. modeled after the popular mobile game.',
+        description: 'Flappy Bird. Modeled after the popular mobile game.',
         technologies: ['HTML5', 'CSS3', 'JavaScript', 'Canvas API'],
         URLs: {
             site: 'https://avshalom-mogos.github.io/flappyBird-js',
@@ -41,7 +41,7 @@ export const data = [
     },
     {
         name: 'Snake',
-        description: 'Snake Game.',
+        description: 'Snake Game, Using DOM manipulations.',
         technologies: ['HTML5', 'CSS3', 'JavaScript'],
         URLs: {
             site: 'https://avshalom-mogos.github.io/snake-game-js/',
@@ -51,7 +51,7 @@ export const data = [
     },
     {
         name: 'Tic Tac Toe',
-        description: 'Simple tic tac toe game using HTML5 Alert and prompt.',
+        description: 'Simple tic tac toe game, using HTML5 Alert and Prompt.',
         technologies: ['HTML5', 'JavaScript'],
         URLs: {
             site: 'https://avshalom-mogos.github.io/Tic-Tac-Toe-js/',
