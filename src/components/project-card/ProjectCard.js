@@ -10,11 +10,11 @@ const ProjectCard = ({ name, description, technologies, URLs, gif }) => {
             <div className={classes.cardDetails}>
                 <span className={classes.name}>{name}</span>
 
+                <span className={classes.description}>{description}</span>
+                
                 <div className={classes.technologiesContainer}>
                     {technologies.map((technology, index) => <span key={index} className={classes.technology}>{technology}</span>)}
                 </div>
-                
-                <span className={classes.description}>{description}</span>
                 
                 <div className={classes.linksContainer}>
                     <a href={URLs.site} target='_blank' rel='noopener noreferrer'>

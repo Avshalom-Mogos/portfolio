@@ -21,11 +21,11 @@
 
 .name{
     font-size: 1.5rem;
-    padding: 0.8rem;
+    padding: 0.5rem;
 }
 
 .technologiesContainer{
-    padding: 0.8rem;
+    padding: 0.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -40,7 +40,9 @@
 }
 
 .description{
-   padding: 0.8rem;
+   padding: 0.5rem;
+    text-align: left;
+    font-weight: 100;
 }
 
 .linksContainer{
@@ -48,7 +50,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 0.8rem;
+    padding: 0.5rem;
 }
 
 .linksContainer a{
@@ -93,6 +95,6 @@ div [class*="col-"] {
 
     .technology{
         padding: 0.15rem 0.25rem;
-        font-size: 10px;
+        font-size: 8px;
     }
 }
