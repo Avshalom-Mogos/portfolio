@@ -11,7 +11,7 @@ export const data = [
     },
     {
         name: 'The Book Shelf',
-        description: 'Online book store, with a shpping cart and purchased history.',
+        description: 'Online book store, with a shopping cart and purchase history.',
         technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'CSS3', 'JavaScript', 'Bootstarp'],
         URLs: {
             site: 'https://the-book-shelf-project.herokuapp.com',

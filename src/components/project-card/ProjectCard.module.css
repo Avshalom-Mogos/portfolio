@@ -82,17 +82,17 @@ div [class*="col-"] {
     .technologiesContainer,
     .description,
     .linksContainer{
-        padding: 0.5rem;
-        font-size: 12px
+        padding: 0.4rem;
+        font-size: 12px;
     }
 
     .name{
-        padding: 0.5rem;
-        font-size: 18px
+        padding: 0.4rem;
+        font-size: 18px;
     }
 
     .technology{
         padding: 0.15rem 0.25rem;
-        font-size: 10px
+        font-size: 10px;
     }
 }
