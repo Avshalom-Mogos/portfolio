@@ -4,6 +4,7 @@
     color: #ffffff;
     background-color: var(--light-purple);
     height: 100%;
+    max-height: 507px;
 }
 
 .image{
