@@ -49,3 +49,9 @@
     from {transform: scale(1,0);}
     to {transform: scale(1,1);}
 }
+
+@media screen and (max-width: 500px) {
+    .links i{
+        font-size: 1rem;
+    }
+}

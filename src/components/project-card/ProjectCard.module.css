@@ -3,7 +3,6 @@
     display: flex;
     color: #ffffff;
     background-color: var(--light-purple);
-    /* min-height: 340px; */
     height: 100%;
 }
 
@@ -21,14 +20,14 @@
 
 .name{
     font-size: 1.5rem;
-   padding: 0.8rem;
+    padding: 0.8rem;
 }
 
 .technologiesContainer{
-  padding: 0.8rem;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
+    padding: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .technology{
@@ -75,11 +74,24 @@
 
 div [class*="col-"] {
     padding: 1rem !important;
-  
 }
 
 @media screen and (max-width: 450px) {
-    html {
-     font-size: 14px;
+    
+    .technologiesContainer,
+    .description,
+    .linksContainer{
+        padding: 0.5rem;
+        font-size: 12px
+    }
+
+    .name{
+        padding: 0.5rem;
+        font-size: 18px
+    }
+
+    .technology{
+        padding: 0.15rem 0.25rem;
+        font-size: 10px
     }
 }

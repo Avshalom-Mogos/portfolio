@@ -66,8 +66,8 @@
     margin: 0.5rem; 
 }
 
-@media only screen and (max-width: 37.5em){
-    .About {
-        margin-top: -2rem;
+@media screen and (max-width: 450px) {
+    .description {
+        font-size: 1.1rem;
     }
 }
