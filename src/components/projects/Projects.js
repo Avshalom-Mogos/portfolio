@@ -1,16 +1,16 @@
 import React from 'react';
-import { data } from "./data";
+import { data } from './data';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import ProjectCard from "../project-card/ProjectCard";
+import ProjectCard from '../project-card/ProjectCard';
 import classes from './Projects.module.css';
 
 
 const Projects = () => {
     return (
-        <section className={classes.Projects} id="projects">
+        <section className={classes.Projects} id='projects'>
             <div className={classes.projectsTitle}>
-                <h2>PROJECTS</h2>
+                <h2 data-aos='fade'>PROJECTS</h2>
             </div>
             <div className={classes.projectsContainer}>
                 <Row noGutters>
